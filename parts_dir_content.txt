@@ -1,0 +1,12 @@
+total 40
+-rw-rw-r-- 1 ubuntu ubuntu    0 Jun 10 13:02 __init__.py
+drwxrwxr-x 2 ubuntu ubuntu 4096 Jun 10 16:41 __pycache__
+-rw-rw-r-- 1 ubuntu ubuntu 1159 Jun 10 16:39 admin.py
+-rw-rw-r-- 1 ubuntu ubuntu  148 Jun 10 13:02 apps.py
+-rw-rw-r-- 1 ubuntu ubuntu 1579 Jun 10 14:56 forms.py
+drwxrwxr-x 3 ubuntu ubuntu 4096 Jun 10 16:41 migrations
+-rw-rw-r-- 1 ubuntu ubuntu 3281 Jun 10 15:00 models.py
+drwxrwxr-x 3 ubuntu ubuntu 4096 Jun 10 16:41 templates
+-rw-rw-r-- 1 ubuntu ubuntu   63 Jun 10 13:02 tests.py
+-rw-rw-r-- 1 ubuntu ubuntu  313 Jun 10 14:55 urls.py
+-rw-rw-r-- 1 ubuntu ubuntu 3600 Jun 10 14:56 views.py

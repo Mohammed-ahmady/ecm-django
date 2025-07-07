@@ -1,0 +1,75 @@
+/* Tailwind CSS - Generated styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom ECM Colors */
+:root {
+  --ecm-primary: #1f2937;
+  --ecm-accent: #f97316;
+  --ecm-secondary: #6b7280;
+}
+
+.text-ecm-primary {
+  color: var(--ecm-primary);
+}
+
+.text-ecm-accent {
+  color: var(--ecm-accent);
+}
+
+.text-ecm-secondary {
+  color: var(--ecm-secondary);
+}
+
+.bg-ecm-primary {
+  background-color: var(--ecm-primary);
+}
+
+.bg-ecm-accent {
+  background-color: var(--ecm-accent);
+}
+
+.bg-ecm-secondary {
+  background-color: var(--ecm-secondary);
+}
+
+.border-ecm-primary {
+  border-color: var(--ecm-primary);
+}
+
+.border-ecm-accent {
+  border-color: var(--ecm-accent);
+}
+
+/* Custom utility classes */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ecm-accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
+
